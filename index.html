@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
+      <div class="wrap">
        <header class="header">
         <ul> 
         <li><a href="#">Meu YouBike</a></li>
@@ -31,18 +32,24 @@
             <div id="line2"></div>
         </div>
         <div class="article4">
-            <ul>
-                <li><form><input type="text" name="firstname" placeholder="First Name"></form></li>
-                <li><form><input type="text" name="lastname" placeholder="Last Name"></form></li>
-                <li><form><input type="email" name="email" placeholder="Email Address"></form></li>
-                <li><form><input type="password" name="password" placeholder="Choose Password"></form></li>
-                <li><form><input type="password" name="password-confirm" placeholder="Password Confirm"></form></li>
+            <form id="main_form">
+               <ul>
+                <li><input type="text" name="firstname" placeholder="First Name"></li>
+                <li><input type="text" name="lastname" placeholder="Last Name"></li>
+                <li><input type="email" name="email" placeholder="Email Address"></li>
+                <li><input type="password" name="password" placeholder="Choose Password"></li>
+                <li><input type="password" name="password-confirm" placeholder="Password Confirm"></li>
             </ul>
+            </form>
         </div>
-        <div class="checkbox"><form><input type="checkbox" name="updates">Send me Youbike updates and tips</form></div>
-        <div class="submit" name="create"><form><input type="submit" value="Create my Account"></form></div>
+        <div class="checkbox"><input type="checkbox" name="updates" form="main_form">Send me Youbike updates and tips</div>
+        <div class="submit" name="create"><form><input type="submit" value="Create my Account" form="main_form"></form></div>
         </div>
         <div class="privacy">By clicking the button above, you agree to the Terms of Service Xiew our Privacy Policy.</div>
     </article>
+    <div class="social-wrap c">
+        <button class="facebook"><div class="fb_logo"><img src="images/fb_logo.png"></div><div class="fb_login"><strong>Log in</strong> with <strong>Facebook </strong></div></button>
+</div>
+    </div>
     </body>
 </html> 

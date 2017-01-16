@@ -3,17 +3,20 @@
     margin: 0;
 }
 body{
-    font-family: tahoma;
-    background-image: url(/images/background.jpg);
+    font-family: tahoma, sans-serif;
+    background-image: url(../images/background.jpg);
     background-position: center;
+}
+.wrap{
+    width: 1215px;
+    margin: auto;
 }
 .header {
     background-color: #074f8d;
-    width: 1215px;
+    width: 100%;
     height: 35px;
     color: #60b5ed;
     font-size: 14px;
-    margin: auto;
 }
 .header ul {
     margin-left: 460px;
@@ -133,6 +136,7 @@ article {
     text-align: center;
 }
 .submit input {
+    text-align: center;
     width: 150px;
     height: 36px;
     background: linear-gradient(#50aedb, #2e7ac4);
@@ -149,4 +153,28 @@ article {
     font-size: 11px;
     text-align: center;
     width: 55%;
+}
+.facebook {
+    cursor: pointer;
+    width: 276px;
+    height: 34px;
+    background: linear-gradient(to top, #374164, #3e5694);
+    border: none;
+    box-shadow: inset 0 1px 0px #778ab5;
+    border-radius: 5px;
+}
+
+.fb_logo, fb_login{
+    float: left;
+}
+.fb_logo {
+    width: 36px;
+    height: 100%;
+    border-right: 1px solid #1f3c76;
+    padding-top: 6px;
+}
+.fb_login {
+    padding-top: 5px;
+    color: white;
+    font: 15px tahoma;
 }
