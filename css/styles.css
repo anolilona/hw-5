@@ -6,6 +6,8 @@ body{
     font-family: tahoma, sans-serif;
     background-position: center;
     background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .header {
